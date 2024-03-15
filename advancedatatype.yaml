@@ -1,0 +1,74 @@
+student: !!seq
+ - marks
+ - name
+ - age
+
+# or
+ 
+student2: !!seq [marks, name, age]
+
+# some of the keys seq will be empty
+# spase seq
+sparce seq:
+  - hey
+  - how
+  -
+  - null
+
+# nested seq
+
+-
+ - apple
+ - banana
+-
+ - kolkata
+ - sonamukhi  
+
+ # output
+#  [
+#   [
+#     "apple",
+#     "banana"
+#   ],
+#   [
+#     "kolkata",
+#     "sonamukhi"
+#   ]
+# ]
+
+
+# Key - value pair are called maps
+!!map
+
+# nested mapping
+name: Arpan
+role:
+  age: 15
+  job: student
+
+
+# pairs: keys may have duplicate values
+# !!pairs
+
+pair example: !!pairs
+ - job: student
+ - job: teacher
+
+ # same as pair example: !!pairs [job: student, job: teacher]
+
+
+# !!set allow only unique value
+names: !!set
+ ? Arpan
+ ? Eshita
+ ? Kalu
+
+
+# dictionary !!omap
+People: 
+  - name: Arpan Pal
+    age: 23
+  - name: Eshita
+    age: 72000
+
+# Reusing some properties
