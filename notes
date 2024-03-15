@@ -14,3 +14,6 @@ YAML:
         strict nice syntax, indentation is important
         easily convert in JSON, XML
         more powerful representing complex data
+
+
+Check valid syntax : YAML lint

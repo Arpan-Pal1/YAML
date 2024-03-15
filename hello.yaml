@@ -1,0 +1,25 @@
+"apple" : "I am a red fruit"
+21 : "age"
+
+---   # used to specify different documnet 
+# lists
+- apple
+- mango
+- banana
+- Apple # case sensitive
+---
+
+
+cities:
+ - kolkata
+ - mumbai
+ - sonamukhi
+
+---
+cities: [new delhi, mumbai, kolkata]
+
+---
+{mango : "yellow", age : 23}
+
+... # document is ended
+
