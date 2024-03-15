@@ -1,0 +1,16 @@
+YAML -> YAML ain't markup language 
+Markup language -> Parent child relation
+
+YAML:
+    data format used to exchange data, similar to XML, JSON
+    (human readable language to represent data)
+
+    *** Store data, not command (Data serialization -> process of converting a data object into a stream and from stream to object -> deserialization)
+
+    Configuration file(docker, kubernettes)
+
+    Benefit : 
+        human readable, simple 
+        strict nice syntax, indentation is important
+        easily convert in JSON, XML
+        more powerful representing complex data
