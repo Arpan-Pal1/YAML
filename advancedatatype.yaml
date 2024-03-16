@@ -71,4 +71,15 @@ People:
   - name: Eshita
     age: 72000
 
-# Reusing some properties
+# Reusing some properties using anchors
+likings: &base
+  fav fruit: mango
+  dislike: apple
+
+person1:
+  name: Arpan
+  fav fruit: mango
+  dislike: apple
+
+person2:
+ <<: *base
